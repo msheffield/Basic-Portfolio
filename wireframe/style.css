@@ -5,29 +5,38 @@
 }
 
 body {
-    background-color: grey;
+    color: #777;
+    background: #777;
     width: 960px;
+    font-size: 18px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header, nav, section, aside, footer, h1, p {
+    background:  #ebebeb;
 }
 
 header {
     display: block;
     width: 960px;
     height: 50px;
-    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 nav {
     display: block;
     width: 960px;
     height: 50px;
-    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
 
 }
 
 section {
     float: left;
-    width: 470px;
-    background-color: white;
+    width: 495px;
+    margin-bottom: 10px;
 
 }
 
@@ -43,19 +52,15 @@ article {
 
 p {
     margin: 5px;
-    background-color: white;
 }
 
 aside {
     float: right;
-    width: 470px;
-    height: auto;
-    background-color: white;
-
+    width: 445px;
+    height: 130px;
 }
 
 footer {
     clear: both;
-    background-color: white;
-
+    margin-top: 10px;
 }
