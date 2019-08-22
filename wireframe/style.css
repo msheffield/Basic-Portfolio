@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px dashed blue;
+}
+
+body {
+    background-color: grey;
+    width: 960px;
+}
+
+header {
+    display: block;
+    width: 960px;
+    height: 50px;
+    background-color: white;
+}
+
+nav {
+    display: block;
+    width: 960px;
+    height: 50px;
+    background-color: white;
+
+}
+
+section {
+    float: left;
+    width: 470px;
+    background-color: white;
+
+}
+
+article {
+    margin: 5px;
+    background-color: grey;
+}
+
+#article {
+    color: white;
+    background-color: grey;
+}
+
+p {
+    margin: 5px;
+    background-color: white;
+}
+
+aside {
+    float: right;
+    width: 470px;
+    height: auto;
+    background-color: white;
+
+}
+
+footer {
+    clear: both;
+    background-color: white;
+
+}
